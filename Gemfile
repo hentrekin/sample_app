@@ -51,6 +51,6 @@ group :test do
 end
 
 group :production do
-	gem 'sqlite3', '1.3.5'
-  #gem 'pg', '0.12.2'
+	#gem 'sqlite3', '1.3.5'
+  gem 'pg', '0.12.2'
 end
